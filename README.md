@@ -8,6 +8,11 @@ This repository serves a tentatively mission to note useful literatures/Apps/res
 
 ## Statistics
 
+### General topics
+- [R package: performance](https://easystats.github.io/performance/index.html)  
+    - A component of easystats-verse.
+    - A all-in-one package that could help evaluate your model.
+
 ### Bayesian statistics
 
 ### GEEs (Generalized estimating equations)
@@ -40,6 +45,17 @@ This repository serves a tentatively mission to note useful literatures/Apps/res
 - [Applied statistics for experimental biology](https://www.middleprofessor.com/files/applied-biostatistics_bookdown/_book/)
     - Another online-book for the biostatistics. Good practices and examples are inside, including the decision making processes.
 
+- [An example about how to plot the model effect of the mixed model](https://stackoverflow.com/questions/33763089/plotting-predicted-values-from-lmer-as-a-single-plot)
+
+- [R package: partR2](https://cran.r-project.org/web/packages/partR2/index.html)
+    - Refs: [Stoffel et al. (2021)](https://peerj.com/articles/11414/#p-20)
+
+- [Book: An introduction to multilevel modeling techniques-MLM and SEM Approaches](https://www.taylorfrancis.com/books/mono/10.4324/9780429060274/introduction-multilevel-modeling-techniques-ronald-heck-scott-thomas)
+    - Although multilevel modeling and GLMMs should be treated as synonyms, they often represent the different aspects of the regression method itself. This book gives the introduction of the "multilevel part".  
+
+- [Book: Data analysis using regression and multilevel/hierarchical models](https://books.google.com.tw/books?hl=zh-TW&lr=&id=c9xLKzZWoZ4C&oi=fnd&pg=PR17&dq=Gelmen+2007+hierarchical+regression&ots=bcR7P3Rtlg&sig=ACk0iGPIQS0T7MxeXDiOnWACiy4&redir_esc=y#v=onepage&q=Gelmen%202007%20hierarchical%20regression&f=false)
+    - A clear book about the multilevel reality of GLMMs. Worth reading!   
+
 ### Multivariate statistical analysis
 - [Factoextra R Package: Easy Multivariate Data Analyses and Elegant Visualization](http://www.sthda.com/english/wiki/factoextra-r-package-easy-multivariate-data-analyses-and-elegant-visualization)
 
@@ -53,14 +69,25 @@ This repository serves a tentatively mission to note useful literatures/Apps/res
 
 - [Book: Modern phylogenetic comparative methods and their application in evolutionary biology](https://link.springer.com/book/10.1007/978-3-662-43550-2?page=2#toc)
 
+- [Araya-Ajoy et al. (2015)](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12430)
+    - An article on using GLMMs to estimate the relative contribution of different components to the phenotypic traits.
+
+
 
 ## Species distribution models
 
 ## Other GIS related methods
 * [QGIS](https://www.qgis.org/en/site/)
+    * An oper-source GIS software with GUI.
 * [Downloading and exploring raster data using R package: raster](https://emilypiche.github.io/BIO381/raster.html)
+* [R package: maptiles](https://github.com/riatelab/maptiles)
+    * This package downloads, composes and displays tiles from a large number of providers (e.g. OpenStreetMap, Stamen, Esri, CARTO, or Thunderforest).  
+* [R-spatial](https://r-spatial.org/)
+    * This project works on making R as a better and more convenient environment to do the spatiotemporal analysis. Several packages were developed, and also the news and blog post were released as guides.
 
 ## Theoretical ecology
+- [Wikipedia: Eigenvalues and eienvectors](https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors)
+
 
 ## Systematics
 
@@ -73,6 +100,7 @@ This repository serves a tentatively mission to note useful literatures/Apps/res
 * Notion
 * Git
     * Use with Github.
+    * Ref: [Commit Often, Perfect Later, Publish Once: Git Best Practices](https://sethrobertson.github.io/GitBestPractices/#pubonce).
 * Github
 * Google meet
     * [How long the meeting code is valid?](https://workspaceupdates.googleblog.com/2021/05/check-when-your-google-meet-meeting.html)
