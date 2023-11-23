@@ -39,9 +39,19 @@ This repo would periodically synchronize to the [github repo](https://github.com
         - Appendix: Algebra and calculus basics.  
         - Ch 4: Probability theory and distribution.   
 
-### Bootstrapping
-- [Medium post: Ditch p-values. Use Bootstrap confidence intervals instead](https://towardsdatascience.com/ditch-p-values-use-bootstrap-confidence-intervals-instead-bba56322b522)
+- [e-Book: Statistical Inference via Data Science by Chester Ismay and Albert Y. Kim](https://moderndive.github.io/moderndive_labs/static/previous_versions/v0.6.0/index.html)
+    - Found on 2023, Nov. 21.
+    - Haven't read it yet, but some figures and illustrations that from a glance did catch my eye.
 
+### Bootstrapping
+- [Medium post: Ditch p-values. Use Bootstrap confidence intervals instead](https://towardsdatascience.com/ditch-p-values-use-bootstrap-confidence-intervals-instead-bba56322b522)  
+
+- [Vedio: 4 Reasons Non-Parametric Bootstrapped Regression (via tidymodels) is Better then Ordinary Regression by 
+yuzaR Data Science on Youtube](https://youtu.be/sjCxIHVGkdE?feature=shared)
+    - I'm sure that I watched this vedio for knowing how to plot confidence intervals in the early September, 2023; but couldn't remember why, probably after I finished collecting some data and wanted to test some relationship using bootstrapping.  
+        - Revist this vedio on November 23, 2023 because I finally thought of that I have seen this before.  
+    - This vedio teached you how to do a very simple but super useful bootstrapped linear regression!
+    
 - [Rblogger's post: understanding bootstrap confidence interval output from the r boot package](https://www.r-bloggers.com/2019/09/understanding-bootstrap-confidence-interval-output-from-the-r-boot-package/)
     - This post kindly and detailly explain the different setting in "type=" argument of function: boot.ci. Also see the references listed below the boot.ci official document.
 
@@ -157,10 +167,14 @@ This repo would periodically synchronize to the [github repo](https://github.com
 - [McNeish, D., & Kelley, K. (2019). Fixed effects models versus mixed effects models for clustered data: Reviewing the approaches, disentangling the differences, and making recommendations. Psychological Methods, 24(1), 20–35.](https://doi.org/10.1037/met0000182)  
     - Known from listening [podcast: quantitude (S2E29: Multilevel models -- The often unnecessary green monster](https://quantitudepod.org/s2e29-multilevel-models-the-often-unnecessary-green-monster/)).
 
-- Papers on how many group numbers should be should in the LMM?  
-    - [Gomes (2022)](https://peerj.com/articles/12794/)  
-    - [Oberpriller et al. (2022)](https://onlinelibrary.wiley.com/doi/10.1002/ece3.9062)  
+- Papers on how many group numbers should be used in the LMM?  
+    - [Gomes (2022) PeerJ 10:e12794.](https://peerj.com/articles/12794/)  
+    - [Oberpriller et al. (2022) Ecology and Evolution 12(7): e9062.](https://onlinelibrary.wiley.com/doi/10.1002/ece3.9062)  
         - See guides and power analysis of LM v.s. LMM.
+    - [StackExchange: What is the minimum recommended number of groups for a random effects factor?](https://stats.stackexchange.com/questions/37647/what-is-the-minimum-recommended-number-of-groups-for-a-random-effects-factor)
+        - See discussion inside that detailly quoted Gelman and Hill (2007) for the controversial views. 
+    - [e-Book: Data Analysis in R by Steve Midway](https://bookdown.org/steve_midway/DAR/random-effects.html)
+        - See the analogy / statements inside for the feeling about the minimum number of classes, and also the introduction of GLMM.
 
 - Papers on the violation of assumptions.
     - [Schielzeth et al. (2020) Robustness of linear mixed-effects models to violations of distributional assumptions. Methods Ecol Evol. 11: 1141– 1152.](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13434)
@@ -311,6 +325,9 @@ Ecological and Evolutionary Perspectives](https://www.cambridge.org/cn/academic/
     * Including [package: rsample](https://rsample.tidymodels.org/index.html), which could be use for bootstrapping.
 * [R package: ggdist](https://mjskay.github.io/ggdist/)
     * Plotting uncertainty for frequentist models.
+* [R package: ggridges](https://cran.r-project.org/web/packages/ggridges/)
+    * Suggested by GCHsu on 20230713.
+    * Plotting the distribution of data through multiple dimensions (e.g. space and time.)
 * [R package: ciTools](https://cran.r-project.org/web/packages/ciTools/index.html)
     * Function to add C.I. in the data range.
 * [R package: tryCatchLog](https://cran.r-project.org/web/packages/tryCatchLog/index.html)
@@ -318,6 +335,11 @@ Ecological and Evolutionary Perspectives](https://www.cambridge.org/cn/academic/
         * This package support using [R package: futile.logger](https://cran.r-project.org/web/packages/futile.logger/index.html) to perform logging utility.
 * [R package: Webshot](https://cran.r-project.org/web/packages/webshot/index.html)
     * See the URL tag inside for the better introduction.
+* [Book: Gillespie C. 2021. Efficient R programming (e-book)](https://csgillespie.github.io/efficientR/)
+    * Although not haven't read yet, the title seems good and interesting! (2023, September 05)
+
+* [Code Folding and Sections in the RStudio IDE by Posit Support](https://support.posit.co/hc/en-us/articles/200484568-Code-Folding-and-Sections-in-the-RStudio-IDE)
+    * Useful when you want to navigate through your Rscripts / codes.
 
 ## Information visualization
 * [NVSCheatSheet of graphic principles](https://github.com/GraphicsPrinciples/CheatSheet/blob/master/NVSCheatSheet.pdf?fbclid=IwAR0a74lWpqKZ-l1T6n1UQK-3Nyo0OuED0UUAxUW4dtiBtjbmIlRFxqwsLMQ)
