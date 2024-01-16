@@ -43,6 +43,10 @@ This repo would periodically synchronize to the [github repo](https://github.com
     - Found on 2023, Nov. 21.
     - Haven't read it yet, but some figures and illustrations that from a glance did catch my eye.
 
+- [e-Book: Interpretable Machine Learning - A guide for making black box models explainable by Christoph Molnar](https://christophm.github.io/interpretable-ml-book/)
+    - Add on Nov. 26, 2023.
+    - This book seems to contain some "causal inference" part, but haven't been read carefully yet.
+
 ### Bootstrapping
 - [Medium post: Ditch p-values. Use Bootstrap confidence intervals instead](https://towardsdatascience.com/ditch-p-values-use-bootstrap-confidence-intervals-instead-bba56322b522)  
 
@@ -75,6 +79,9 @@ yuzaR Data Science on Youtube](https://youtu.be/sjCxIHVGkdE?feature=shared)
     - Also for "Evolutionary biology".
 
 - [McElreath, R. (2016, 2020) Statistical rethinking: a bayesian course with examples in R and Stan. CRC Press.](https://xcelab.net/rm/statistical-rethinking/)
+    - Known by reading [Grainger, T. N. et al. (2022) The American Naturalist, 199(1): 1–20.](https://www.journals.uchicago.edu/doi/abs/10.1086/717206?casa_token=mQ9Ef-cyjb8AAAAA:zZOJrJwoAUPPy3JgPQbU4DRSFRsmKAmWy_KpV9pbOXBE2fZD9StzmWWAcs2Du1FBXnzWRyIfuBM)
+    - And also some implementations using other packages by others (some are also listed in the author's website):
+        - [e-Book: Statistical Rethinking with brms, ggplot2, and the tidyverse ver 1.0.1 by A Solomon Kurz](https://bookdown.org/ajkurz/Statistical_Rethinking_recoded/)
 
 ### GLM (Generalized linear models)
 - [Blog post: Generalized Linear Models (GLMs) by Tim Newbold](https://timnewbold.github.io/teaching_resources/GLMs.html)
@@ -219,6 +226,34 @@ yuzaR Data Science on Youtube](https://youtu.be/sjCxIHVGkdE?feature=shared)
         - [Blog post: Climate change: Modeling 140+ years of temperature data with tsibble and fable](https://rethinking.rbind.io/2019/01/21/140-years/)
         - [Blog post: Tidy time series data using tsibbles by Rob J Hyndman](https://robjhyndman.com/hyndsight/tsibbles/)
 
+## Causal inference
+
+### General topics
+- **In general**
+    - I used to think causal inference as a component of modern statistics, but decided to separate it as a different mathematical tool (at least for now). Part of "causal inference (SCM framework, *sensu stricto*)" use statistical language, and also contains other tools makes it have the ability to think real questions in a different view. I agree with them both, so I would like to treat them equally (2024, Jan. 08).
+
+### Popular science book
+- [The Book of Why: The New Science of Cause and Effect](http://bayes.cs.ucla.edu/WHY/)
+    - Added on 2024, Jan. 08.
+    - Keywords: SCM, DAGs.
+    - This is a popular science book written by Judea Pearl to introduce his work and the history of causal inference.
+    - Chinese version is at [here](https://www.books.com.tw/products/0010825178) (中譯：因果革命：人工智慧的大未來).
+    - Debates happens btw Andrew Gelman and Judea Pearl
+        - See [this post on Medium](https://vishakh.medium.com/empiricism-and-scientific-change-in-judea-pearls-the-book-of-why-5e77c02a9d8b) for a good book review and a comment about the debate.
+
+### Interaction and effect modification
+
+- [Attia, J. et al. 2022. A proposal for capturing interaction and effect modification using DAGs. International Journal of Epidemiology 51: 1047–1053.](https://academic.oup.com/ije/article/51/4/1047/6607680)
+    - Added on 2024, Jan. 16.
+    - This paper discuss how to include a statistical "interaction term" in the DAG, and also other issues when doing these.
+    - Also see these articles for references:
+        - [Nilsson et al. 2021. Int J Epidemiol](https://academic.oup.com/ije/article/50/2/613/5998421?login=false)
+
+### DAGs and other modelling framework
+
+- [Arnold, K. F. et al. 2019. DAG-informed regression modelling, agent-based modelling and microsimulation modelling: a critical comparison of methods for causal inference. International Journal of Epidemiology 48: 243–253.](https://academic.oup.com/ije/article/48/1/243/5231935)
+    - Added on 2024, Jan. 16 (Not read yet).
+
 ## Evolutionary biology
 
 - [Book: Modern phylogenetic comparative methods and their application in evolutionary biology](https://link.springer.com/book/10.1007/978-3-662-43550-2?page=2#toc)
@@ -254,6 +289,8 @@ yuzaR Data Science on Youtube](https://youtu.be/sjCxIHVGkdE?feature=shared)
 ## Theoretical ecology
 - [Wikipedia: Eigenvalues and eienvectors](https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors)
 - [Caswell (2001) Matrix Population Models](https://global.oup.com/academic/product/matrix-population-models-9780878931217?cc=tw&lang=en&)
+- [Ellner, S. P. (2016) Data-driven Modelling of Structured Populations: A Practical Guide to the Integral Projection Model. Springer.](https://link.springer.com/book/10.1007/978-3-319-28893-2)
+    - Added on 2024, Jan. 16.
 - [Case (2000) An illustrated guide to theoretical ecology](https://global.oup.com/ushe/product/an-illustrated-guide-to-theoretical-ecology-9780195085129?cc=tw&lang=en&)
 - [Dercole & Rinaldi (2008) Analysis of Evolutionary Processes: The Adaptive Dynamics Approach and Its Applications](https://press.princeton.edu/books/hardcover/9780691120065/analysis-of-evolutionary-processes)
     - Note: 
